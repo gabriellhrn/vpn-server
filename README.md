@@ -17,13 +17,13 @@ $ set -x DO_PAT <token>
 $ set -x DO_SSHKEY <fingerprint>
 ```
 
-After configuring the environment variables, *start* the server:
+After configuring the environment variables, **start** the server:
 
 ```
 $ vpn-server start
 ```
 
-To *stop* the server, run:
+To **stop** the server, run:
 
 ```
 $ vpn-server stop
@@ -33,4 +33,4 @@ $ vpn-server stop
 
   * Automatically enable Digital Ocean Cloud Firewall
   * Automatically connect to the VPN after the server is created
-  * Configure peer in droplet user-data
+  * Configure VPN client in droplet user-data (in wg0.conf)
